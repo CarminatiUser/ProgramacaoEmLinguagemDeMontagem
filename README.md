@@ -1,19 +1,9 @@
 # FALTA FAZER:
 ### PROGRAMA 01:
-
-
-### PROGRAMA 02:
-
-
-# FAZENDO:
-### PROGRAMA 01:
-
+  * Comitar programa em assembly;
+  * Relatório;
 
 ### PROGRAMA 02:
-
-
-# FEITO: 
-### PROGRAMA 01:
-
-
-### PROGRAMA 02:
+  * Programa em C++;
+  * Programa em Assembly;
+  * Relatório;
