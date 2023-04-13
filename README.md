@@ -1,0 +1,19 @@
+# FALTA FAZER:
+### PROGRAMA 01:
+
+
+### PROGRAMA 02:
+
+
+# FAZENDO:
+### PROGRAMA 01:
+
+
+### PROGRAMA 02:
+
+
+# FEITO: 
+### PROGRAMA 01:
+
+
+### PROGRAMA 02:
