@@ -2,6 +2,7 @@
 //Atividade: Avaliação 01 – Programação em Linguagem de Montagem
 //Programa 01
 
+
 //Grupo:
 //- Arthur Felipe Carminati
 //- Henrique Valiati Schroeder
@@ -9,6 +10,7 @@
 
 
 #include <iostream>
+
 
 using namespace std;
 const int TAM = 8;
