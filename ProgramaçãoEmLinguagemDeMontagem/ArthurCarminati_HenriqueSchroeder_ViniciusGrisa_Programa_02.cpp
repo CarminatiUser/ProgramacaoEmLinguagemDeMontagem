@@ -2,6 +2,15 @@
 
 using namespace std;
 
+//Disciplina: Arquitetura e Organização de Computadores
+//Atividade: Avaliação 01 – Programação em Linguagem de Montagem
+//Programa 02
+
+//Grupo: 
+//- Arthur Felipe Carminati
+//- Henrique Valiati Schroeder
+//- Vinícius Borchardt Grisa
+
 int main() {
     int frequencia[16][32] = {0}; // inicializa todos os elementos com zero
     
