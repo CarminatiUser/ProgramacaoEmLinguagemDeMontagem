@@ -23,12 +23,12 @@ int main() {
     int x = 0; // variável temporária para troca de valores
    
     // solicita o tamanho dos vetores ao usuário
-    cout << "Entre com o tamanho dos vetores (um valor entre 0 e 8): ";
+    cout << "Entre com o tamanho dos vetores (um valor entre 2 e 8): ";
     cin >> tam_vetor;
    
-    // verifica se o tamanho é válido (entre 1 e 8)
+    // verifica se o tamanho é válido (entre 2 e 8)
     while (tam_vetor < 2 || tam_vetor > TAM) {
-        cout << "Valor inválido. Informe um valor maior que 0 e menor que 8, por favor: ";
+        cout << "Valor inválido. Informe um valor maior que 1 e até 8, por favor: ";
         cin >> tam_vetor;
     }
    
