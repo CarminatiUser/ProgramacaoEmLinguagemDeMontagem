@@ -1,6 +1,6 @@
 //Disciplina: Arquitetura e Organização de Computadores
 //Atividade: Avaliação 01 – Programação em Linguagem de Montagem
-//Programa 01
+//Programa 02
 
 
 //Grupo:
