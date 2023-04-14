@@ -26,7 +26,7 @@ int main() {
     cout << "Entre com o tamanho dos vetores (um valor entre 0 e 8): ";
     cin >> tam_vetor;
    
-    // verifica se o tamanho é válido (entre 0 e 8)
+    // verifica se o tamanho é válido (entre 1 e 8)
     while (tam_vetor < 2 || tam_vetor > TAM) {
         cout << "Valor inválido. Informe um valor maior que 0 e menor que 8, por favor: ";
         cin >> tam_vetor;
