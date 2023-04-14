@@ -5,6 +5,15 @@ using namespace std;
 
 const int TAM = 8;
 
+//Disciplina: Arquitetura e Organização de Computadores
+//Atividade: Avaliação 01 – Programação em Linguagem de Montagem
+//Programa 01
+
+//Grupo: 
+//- Arthur Felipe Carminati
+//- Henrique Valiati Schroeder
+//- Vinícius Borchardt Grisa
+
 int main() {
     int Vetor_A[TAM] = {0}; // vetor com 8 elementos inicializados em 0
     int Vetor_B[TAM] = {0}; // vetor com 8 elementos inicializados em 0
