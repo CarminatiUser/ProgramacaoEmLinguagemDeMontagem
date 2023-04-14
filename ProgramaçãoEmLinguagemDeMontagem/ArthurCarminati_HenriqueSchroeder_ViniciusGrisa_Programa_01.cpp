@@ -17,50 +17,50 @@ const int TAM = 8;
 
 
 int main() {
-    int Vetor_A[TAM] = {0}; // vetor com 8 elementos inicializados em 0
-    int Vetor_B[TAM] = {0}; // vetor com 8 elementos inicializados em 0
-    int vetor_size = 0; // tamanho dos vetores
-    int temp = 0; // variável temporária para troca de valores
+    int Vetor_A[TAM] = {0}; // define os índices do vetor A como 0
+    int Vetor_B[TAM] = {0}; // define os índices do vetor B como 0
+    int tam_vetor = 0; // define o tamanho dos vetores
+    int x = 0; // variável temporária para troca de valores
    
-    // solicita o tamanho dos vetores
-    cout << "Entre com o tamanho dos vetores (máx. = 8): ";
-    cin >> vetor_size;
+    // solicita o tamanho dos vetores ao usuário
+    cout << "Entre com o tamanho dos vetores (um valor entre 0 e 8): ";
+    cin >> tam_vetor;
    
-    // verifica se o tamanho é válido
-    while (vetor_size < 2 || vetor_size > TAM) {
-        cout << "Valor inválido. Entre com o tamanho dos vetores (máx. = 8): ";
-        cin >> vetor_size;
+    // verifica se o tamanho é válido (entre 0 e 8)
+    while (tam_vetor < 2 || tam_vetor > TAM) {
+        cout << "Valor inválido. Informe um valor maior que 0 e menor que 8, por favor: ";
+        cin >> tam_vetor;
     }
    
     // lê todos os elementos do Vetor_A
-    cout << "Entre com os elementos do Vetor_A:\n";
-    for (int i = 0; i < vetor_size; i++) {
+    cout << "Informe os elementos do Vetor_A:\n";
+    for (int i = 0; i < tam_vetor; i++) {
         cout << "Vetor_A[" << i << "] = ";
         cin >> Vetor_A[i];
     }
    
     // lê todos os elementos do Vetor_B
-    cout << "Entre com os elementos do Vetor_B:\n";
-    for (int i = 0; i < vetor_size; i++) {
+    cout << "Informe os elementos do Vetor_B:\n";
+    for (int i = 0; i < tam_vetor; i++) {
         cout << "Vetor_B[" << i << "] = ";
         cin >> Vetor_B[i];
     }
    
     // troca os valores dos elementos dos vetores de mesmo índice
-    for (int i = 0; i < vetor_size; i++) {
-        temp = Vetor_A[i];
+    for (int i = 0; i < tam_vetor; i++) {
+        x = Vetor_A[i];
         Vetor_A[i] = Vetor_B[i];
-        Vetor_B[i] = temp;
+        Vetor_B[i] = x 
     }
    
-    // imprime novamente os vetores
+    // imprime novamente os vetores, com os valores trocados
     cout << "Novo Vetor_A:\n";
-    for (int i = 0; i < vetor_size; i++) {
+    for (int i = 0; i < tam_vetor; i++) {
         cout << "Vetor_A[" << i << "] = " << Vetor_A[i] << endl;
     }
    
     cout << "Novo Vetor_B:\n";
-    for (int i = 0; i < vetor_size; i++) {
+    for (int i = 0; i < tam_vetor; i++) {
         cout << "Vetor_B[" << i << "] = " << Vetor_B[i] << endl;
     }
    
